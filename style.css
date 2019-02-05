@@ -249,7 +249,6 @@ body {
   -o-transition: opacity 1s ease-in;
   transition: opacity 1s ease-in;
   opacity: 0;
-  z-index: 1;
 }
 .fadein {
   opacity: 1;
@@ -257,6 +256,7 @@ body {
 .textbox {
   width: 450px;
   margin-top: 85px;
+  z-index: 1;
 }
 h1 {
   font-weight: 900;
@@ -398,7 +398,7 @@ img#clock:hover {
   position: absolute;
   height: 390px;
   z-index: 0;
-  top: 180px;
+  top: 165px;
   left: 200px;
 }
 .container {
