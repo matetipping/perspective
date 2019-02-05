@@ -1,20 +1,38 @@
-// Hamburger menu
-	$("nav").css("right", (-1*$("nav").width()) + "px");
-	$("#nav-hamburger").click(function(){
-		if ($(this).hasClass("animcomplete")) {
-			$(this).removeClass("animcomplete");
-			$(this).addClass("closed");
-			$("nav").css("right", (-1*$("nav").width()) + "px");
-			setTimeout(function() {
-				$("#nav-hamburger").removeClass("closed");
-			}, 500);
-		} else {
-		$(this).addClass("open");
-			$("nav").css("right", "0");
-			setTimeout(function() {
-				$("#nav-hamburger").removeClass("open");
-				$("#nav-hamburger").addClass("animcomplete");
-			}, 500);
-		}
-	});
-	// End hamburger menu //
+window.onload = function() {
+    /* Adjust these global variables */
+    // Speed of hamburger animation (milliseconds). Should match CSS animation speed.
+    hamburgerAnimSpeed = 400;
+    /* End adjustable variables */
+    
+    /* Do not adjust these global variables */
+    scrollValue = -100;
+    screenWidth = screen.width;
+    /* End global variables */
+    
+    $("#top_hamburger").click(function() {
+        if ($(this).hasClass("animcomplete")) {
+            $(this).removeClass("animcomplete");
+            $(this).addClass("closed");
+            $("#dropdown").css("transform", "TranslateY(-200px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(-200px)");
+            setTimeout(function() {
+              $("#top_hamburger").removeClass("closed");
+            }, hamburgerAnimSpeed);
+        } else {
+            $(this).addClass("open");
+            $("#dropdown").css("transform", "TranslateY(0px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(0px)");
+            setTimeout(function() {
+              $("#top_hamburger").removeClass("open");
+              $("#top_hamburger").addClass("animcomplete");
+            }, hamburgerAnimSpeed);
+        }
+    });
+    $("#mark").click(function() {
+        if (location.pathname == "/") {
+            scrollToTop();
+        } else {
+            redirect("/");
+        }
+    });
+};
