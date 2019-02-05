@@ -288,6 +288,13 @@ p {
   margin-right: 20px;
   margin-top: 10px;
 }
+p#logo {
+  line-height: 1.7em;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
 strong {
   color: #83AE9C;
 }
