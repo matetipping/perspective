@@ -39,8 +39,9 @@ window.onload = function() {
         }
     });
     $("#nextbuttonP1").click(function() {
-        $(".fade").removeClass("fadein");
+        $(".leaving").removeClass("fadein");
         $(".leaving").addClass("done");
+        $(".coming").addClass("fadein");
         if ($("#lamp").hasClass("shake")) {
             $("#lamp").removeClass("shake");
         } else {
