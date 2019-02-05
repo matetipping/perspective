@@ -1,5 +1,9 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
 header {
-  background: #ccc;  
+  background: #ccc;
 }
 .float-right {
   float: right;
