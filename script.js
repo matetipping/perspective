@@ -40,6 +40,7 @@ window.onload = function() {
     });
 };
 $("#nextbuttonP1").click(function() {
+  alert("Hello! I am an alert box!!");
   if ($("#lamp").hasClass("shake")) {
     $("#lamp").removeClass("shake");
   } else {
