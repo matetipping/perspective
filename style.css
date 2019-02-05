@@ -5,6 +5,11 @@ body {
 header {
   background: #ccc;
 }
+header span {
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
 .float-right {
   float: right;
 }
