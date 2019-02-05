@@ -339,6 +339,33 @@ img#clock {
   -webkit-transition: transform 0.5s; /* Safari */
   transition: transform 0.5s;
 }
+img#lamp:hover {
+  transform: translateX(440px) translateY(80px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
+}
+img#mug:hover {
+  transform: translateX(330px) translateY(80px);
+  z-index: 1;
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
+}
+img#iphone:hover {
+  transform: translateX(200px) translateY(80px);
+  z-index: 2;
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
+}
+img#frame:hover {
+  transform: translateX(90px) translateY(80px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
+}
+img#clock:hover {
+  transform: translateX(630px) translateY(80px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
+}
 .iconLarge {
   display: block;
   width: 65%;
