@@ -23,8 +23,8 @@ window.onload = function() {
             }, hamburgerAnimSpeed);
         } else {
             $(this).addClass("open");
-            $("#dropdown").css("transform", "TranslateY(-40px)");
-            $("#dropdown").css("-webkit-transform", "TranslateY(-40px)");
+            $("#dropdown").css("transform", "TranslateY(-30px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(-30px)");
             setTimeout(function() {
               $("#top_hamburger").removeClass("open");
               $("#top_hamburger").addClass("animcomplete");
