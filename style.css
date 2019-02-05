@@ -200,7 +200,7 @@ nav#vertical li a {
   letter-spacing: 0.05em;
   font-size: 1.2em;
   line-height: 2em;
-  font-family: quicksand;
+  font-family: 'Quicksand', sans-serif;
   letter-spacing: 0.2em;
 }
 #dropdown {
@@ -230,10 +230,10 @@ nav#vertical li a {
 /*Text Styles*/
 #logo {
   font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.2em;
   color: #fff;
   text-transform: uppercase;
   font-size: 28px;
-  letter-spacing: 0.2em;
 }
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
