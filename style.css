@@ -575,34 +575,34 @@ img#clock:hover {
   animation-iteration-count: infinite;
 }
 @keyframes iphoneshake {
-  0% { transform: translate(201px, 91px) rotate(0deg); }
-  10% { transform: translate(199px, 88px) rotate(-1deg); }
-  20% { transform: translate(197px, 90px) rotate(1deg); }
-  30% { transform: translate(203px, 92px) rotate(0deg); }
-  40% { transform: translate(201px, 89px) rotate(1deg); }
-  50% { transform: translate(199px, 92px) rotate(-1deg); }
-  60% { transform: translate(197px, 91px) rotate(0deg); }
-  70% { transform: translate(203px, 91px) rotate(-1deg); }
-  80% { transform: translate(199px, 89px) rotate(1deg); }
-  90% { transform: translate(201px, 92px) rotate(0deg); }
-  100% { transform: translate(201px, 88px) rotate(-1deg); }
+   0% { transform: translate(203px, 91px) rotate(-1deg); }
+  10% { transform: translate(199px, 89px) rotate(1deg); }
+  20% { transform: translate(201px, 92px) rotate(0deg); }
+  30% { transform: translate(201px, 88px) rotate(-1deg); }
+  40% { transform: translate(201px, 91px) rotate(0deg); }
+  50% { transform: translate(199px, 88px) rotate(-1deg); }
+  60% { transform: translate(197px, 90px) rotate(1deg); }
+  70% { transform: translate(203px, 92px) rotate(0deg); }
+  80% { transform: translate(201px, 89px) rotate(1deg); }
+  90% { transform: translate(199px, 92px) rotate(-1deg); }
+  100% { transform: translate(197px, 91px) rotate(0deg); }
 }
 #iphone.shake {
   animation: iphoneshake 0.5s;
   animation-iteration-count: infinite;
 }
 @keyframes mugshake {
-  0% { transform: translate(331px, 91px) rotate(0deg); }
-  10% { transform: translate(329px, 88px) rotate(-1deg); }
-  20% { transform: translate(327px, 90px) rotate(1deg); }
-  30% { transform: translate(333px, 92px) rotate(0deg); }
-  40% { transform: translate(331px, 89px) rotate(1deg); }
-  50% { transform: translate(329px, 92px) rotate(-1deg); }
-  60% { transform: translate(327px, 91px) rotate(0deg); }
-  70% { transform: translate(333px, 91px) rotate(-1deg); }
-  80% { transform: translate(329px, 89px) rotate(1deg); }
-  90% { transform: translate(331px, 92px) rotate(0deg); }
-  100% { transform: translate(331px, 88px) rotate(-1deg); }
+   0% { transform: translate(331px, 89px) rotate(1deg); }
+  10% { transform: translate(329px, 92px) rotate(-1deg); }
+  20% { transform: translate(327px, 91px) rotate(0deg); }
+  30% { transform: translate(333px, 91px) rotate(-1deg); }
+  40% { transform: translate(329px, 89px) rotate(1deg); }
+  50% { transform: translate(331px, 92px) rotate(0deg); }
+  60% { transform: translate(331px, 88px) rotate(-1deg); }
+  70% { transform: translate(331px, 91px) rotate(0deg); }
+  80% { transform: translate(329px, 88px) rotate(-1deg); }
+  90% { transform: translate(327px, 90px) rotate(1deg); }
+  100% { transform: translate(333px, 92px) rotate(0deg); }
 }
 #mug.shake {
   animation: mugshake 0.5s;
