@@ -257,6 +257,14 @@ body {
   transition: opacity 1s ease-in;
   opacity: 0;
 }
+.coming2 {
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+}
 .fadein {
   opacity: 1;
 }
@@ -356,6 +364,9 @@ img.nextbutton {
 }
 img.nextbutton:hover {
   opacity: 0.7;
+}
+.nextbuttonfinished {
+  opacity: 0;
 }
 img#lamp {
   transform: translateX(440px) translateY(90px);
