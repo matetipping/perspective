@@ -314,20 +314,30 @@ img {
 }
 img#lamp {
   transform: translateX(440px) translateY(90px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
 }
 img#mug {
   transform: translateX(330px) translateY(90px);
   z-index: 1;
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
 }
 img#iphone {
   transform: translateX(200px) translateY(90px);
   z-index: 2;
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
 }
 img#frame {
   transform: translateX(90px) translateY(90px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
 }
 img#clock {
   transform: translateX(630px) translateY(90px);
+  -webkit-transition: transform 0.5s; /* Safari */
+  transition: transform 0.5s;
 }
 .iconLarge {
   display: block;
