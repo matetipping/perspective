@@ -451,13 +451,4 @@ img {
   .iconLarge {
     padding-left: 0px;
   }
-  nav#horizontal {
-  display: inline-block;
-  }
-  #hamburger-cell {
-    display: none;
-  }
-  nav#vertical {
-    display: none;
-  }
 }
