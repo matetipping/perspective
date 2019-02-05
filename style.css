@@ -230,6 +230,7 @@ nav#vertical li a {
 #logo {
   font-family: 'Quicksand', sans-serif;
   color: #fff;
+  text-transform: uppercase;
 }
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
