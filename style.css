@@ -311,21 +311,21 @@ img {
   height: 600px;
 }
 img#lamp {
-  transform: translateX(440px);
+  transform: translateX(440px) translateY(90px);
 }
 img#mug {
-  transform: translateX(330px);
+  transform: translateX(330px) translateY(90px);
   z-index: 1;
 }
 img#iphone {
-  transform: translateX(200px);
+  transform: translateX(200px) translateY(90px);
   z-index: 2;
 }
 img#frame {
-  transform: translateX(90px);
+  transform: translateX(90px) translateY(90px);
 }
 img#clock {
-  transform: translateX(630px);
+  transform: translateX(630px) translateY(90px);
 }
 .iconLarge {
   display: block;
