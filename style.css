@@ -549,7 +549,7 @@ img#clock:hover {
   50% { transform: translate(629px, 92px) rotate(-1deg); }
   60% { transform: translate(627px, 91px) rotate(0deg); }
   70% { transform: translate(633px, 91px) rotate(-1deg); }
-  80% { transform: translate(6291px, 89px) rotate(1deg); }
+  80% { transform: translate(629px, 89px) rotate(1deg); }
   90% { transform: translate(631px, 92px) rotate(0deg); }
   100% { transform: translate(631px, 88px) rotate(-1deg); }
 }
