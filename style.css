@@ -329,7 +329,7 @@ img {
   height: 600px;
 }
 img.nextbutton {
-  height: unset;
+  height: 140px;
   position: absolute;
   transform: translateX(900px) translateY(200px);
   opacity: 1;
