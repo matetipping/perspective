@@ -9,16 +9,19 @@ header {
   float: right;
 }
 #hamburger {
-  width: 15px;
+  width: 30px;
 }
 #hamburger span {
   background: #333;
-  height: 2px;
-  border-radius: 1px;
+  height: 4px;
+  border-radius: 2px;
   display: block;
   position: relative;
   width: 100%;
-  margin: 3px;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 footer {
   background: #aaa; 
