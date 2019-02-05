@@ -364,6 +364,11 @@ img.nextbutton:hover {
 }
 .nextbuttonfinished {
   opacity: 0;
+  height: 140px;
+  position: absolute;
+  transform: translateX(900px) translateY(200px);
+  -webkit-transition: transform 0.3s; /* Safari */
+  transition: transform 0.3s;
 }
 img#lamp {
   transform: translateX(440px) translateY(90px);
