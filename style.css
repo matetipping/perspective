@@ -249,6 +249,7 @@ body {
   -o-transition: opacity 1s ease-in;
   transition: opacity 1s ease-in;
   opacity: 0;
+  z-index: 1;
 }
 .fadein {
   opacity: 1;
@@ -391,7 +392,7 @@ img#clock:hover {
 }
 /*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
-  background-color: #94A9BF;
+  background-color: #839DAF;
   padding: 0.01px;
   width: 600px;
   position: absolute;
