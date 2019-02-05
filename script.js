@@ -42,6 +42,8 @@ window.onload = function() {
         $(".leaving").removeClass("fadein");
         $(".leaving").addClass("done");
         $(".coming").addClass("fadein");
+        $(".nextbutton").addClass("nextbuttonfinished");
+        $(".nextbutton").removeClass("nextbutton");
         if ($("#lamp").hasClass("shake")) {
             $("#lamp").removeClass("shake");
         } else {
@@ -76,8 +78,6 @@ window.onload = function() {
             $("#frame").removeClass("shake");
             $("#clock").removeClass("shake");
             $("#mug").removeClass("shake");
-            $(".nextbutton").addClass("nextbuttonfinished");
-            $(".nextbutton").removeClass("nextbutton");
             $(".leaving2").removeClass("fadein");
             $(".leaving2").addClass("done");
             $(".coming2").addClass("fadein");
