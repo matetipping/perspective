@@ -329,6 +329,11 @@ img {
   position: absolute;
   height: 600px;
 }
+img.nextbutton {
+  height: unset;
+  position: absolute;
+  transform: translateX(440px) translateY(90px);
+}
 img#lamp {
   transform: translateX(440px) translateY(90px);
   -webkit-transition: transform 0.5s; /* Safari */
