@@ -252,6 +252,14 @@ body {
 .fadein {
   opacity: 1;
 }
+.coming {
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+}
 .done {
   display: none;
 }
