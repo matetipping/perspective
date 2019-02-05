@@ -40,9 +40,9 @@ window.onload = function() {
     });
 };
 $("#nextbuttonP1").click(function() {
-  if ($(this).hasClass("shake")) {
-    $(this).removeClass("shake");
+  if ($("#lamp").hasClass("shake")) {
+    $("#lamp").removeClass("shake");
   } else {
-    $(this).addClass("shake");
+    $("#lamp").addClass("shake");
   }
 });
