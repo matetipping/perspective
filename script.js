@@ -77,5 +77,5 @@ window.onload = function() {
             $("#clock").removeClass("shake");
             $("#mug").removeClass("shake");
         }
-    };
+    });
 };
