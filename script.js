@@ -39,11 +39,30 @@ window.onload = function() {
         }
     });
     $("#nextbuttonP1").click(function() {
-  alert("Hello! I am an alert box!!");
   if ($("#lamp").hasClass("shake")) {
     $("#lamp").removeClass("shake");
   } else {
     $("#lamp").addClass("shake");
+  }
+  if ($("#mug").hasClass("shake")) {
+    $("#mug").removeClass("shake");
+  } else {
+    $("#mug").addClass("shake");
+  }
+  if ($("#clock").hasClass("shake")) {
+    $("#clock").removeClass("shake");
+  } else {
+    $("#clock").addClass("shake");
+  }
+  if ($("#frame").hasClass("shake")) {
+    $("#frame").removeClass("shake");
+  } else {
+    $("#frame").addClass("shake");
+  }
+  if ($("#iphone").hasClass("shake")) {
+    $("#iphone").removeClass("shake");
+  } else {
+    $("#iphone").addClass("shake");
   }
 });
 };
