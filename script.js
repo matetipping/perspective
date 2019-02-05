@@ -9,6 +9,9 @@ window.onload = function() {
     screenWidth = screen.width;
     /* End global variables */
     
+    // Fading animation for on-load words.
+    $(".fade").addClass("fadein");
+    
     $("#top_hamburger").click(function() {
         if ($(this).hasClass("animcomplete")) {
             $(this).removeClass("animcomplete");
