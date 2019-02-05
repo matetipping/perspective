@@ -38,8 +38,7 @@ window.onload = function() {
             redirect("/");
         }
     });
-};
-$("#nextbuttonP1").click(function() {
+    $("#nextbuttonP1").click(function() {
   alert("Hello! I am an alert box!!");
   if ($("#lamp").hasClass("shake")) {
     $("#lamp").removeClass("shake");
@@ -47,3 +46,4 @@ $("#nextbuttonP1").click(function() {
     $("#lamp").addClass("shake");
   }
 });
+};
