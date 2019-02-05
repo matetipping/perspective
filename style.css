@@ -1,9 +1,20 @@
 header {
   background: #ccc;  
 }
-footer {
-  background: #aaa; 
-}
 .float-right {
   float: right;
+}
+#hamburger {
+  width: 30px;
+}
+#hamburger span {
+  background: #333;
+  height: 2px;
+  border-radius: 1px;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+footer {
+  background: #aaa; 
 }
