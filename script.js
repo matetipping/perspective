@@ -76,6 +76,7 @@ window.onload = function() {
             $("#frame").removeClass("shake");
             $("#clock").removeClass("shake");
             $("#mug").removeClass("shake");
+            $(".nextbutton").removeClass("nextbutton");
             $(".nextbutton").addClass("nextbuttonfinished");
             $(".leaving2").removeClass("fadein");
             $(".leaving2").addClass("done");
