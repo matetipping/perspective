@@ -43,6 +43,9 @@ span.right-align {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+nav {
+  display: none;
+}
 footer {
   background: #aaa;
   position: absolute;
