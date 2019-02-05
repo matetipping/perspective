@@ -18,6 +18,10 @@ header span {
 span.left-align {
   padding-left: 32px;
 }
+h1 {
+  font-size: 12pt;
+  text-transform: uppercase;
+}
 span.right-align {
   padding-right: 32px;
 }
