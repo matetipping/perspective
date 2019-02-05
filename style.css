@@ -15,10 +15,10 @@ header span {
   vertical-align: middle;
   display: table-cell;
 }
-span.align-left {
+span.left-align {
   padding-left: 32px;
 }
-span.align-right {
+span.right-align {
   padding-right: 32px;
 }
 .float-right {
