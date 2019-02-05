@@ -39,3 +39,10 @@ window.onload = function() {
         }
     });
 };
+$("#nextbuttonP1").click(function() {
+  if ($(this).hasClass("shake")) {
+    $(this).removeClass("shake");
+  } else {
+    $(this).addClass("shake");
+  }
+});
