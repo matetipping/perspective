@@ -255,7 +255,7 @@ body {
 }
 .textbox {
   width: 450px;
-  margin-top: 100px;
+  margin-top: 85px;
 }
 h1 {
   font-weight: 900;
@@ -391,8 +391,14 @@ img#clock:hover {
 }
 /*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
-  background-color: #B1CABF;
+  background-color: #94A9BF;
   padding: 0.01px;
+  width: 600px;
+  position: absolute;
+  height: 390px;
+  z-index: 0;
+  top: 180px;
+  left: 200px;
 }
 .container {
   max-width: 1000px;
