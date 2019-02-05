@@ -2,38 +2,46 @@
 <html>
   <head>
     <title>Perspective</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="dysfunction.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/9qGOhgE.png">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="bigger-picture.js"></script>
   </head>
   <body>
     <header>
-      <span class="left-align">
-        <h1>Name</h1>
-      </span>
-      <span class="right-align">
-        <div id="nav-hamburger" class="float-right">
-          <div id="hamburger">
-            <span id="hamburgerTop"></span>
-            <span id="hamburgerMid"></span>
-            <span id="hamburgerBottom"></span>
+      <div id="navBar">
+        <div class="navContainer">
+          <div id="mark">
+            <img src="images/Mark.svg" alt="Home">
+          </div>
+          <div id="hamburger-cell">
+            <div id="top_hamburger" class="hamburger">
+              <span id="hamburgerTop"></span>
+              <span id="hamburgerMid"></span>
+              <span id="hamburgerBottom"></span>
+            </div>
           </div>
         </div>
-      </span>
+      </div>
+      <div id="dropdown">
+        <nav id="vertical">
+          <ul>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <nav id="hamburger-menu">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
     <main>
-      <div id="interactive">
+      <div class="container">
+        <div class="row">
+        </div>
       </div>
     </main>
-    <footer>
-      <span>&#x02191</span>
-    </footer>
   </body>
+  <footer>
+  </footer>
 </html>
