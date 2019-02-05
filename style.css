@@ -227,6 +227,10 @@ nav#vertical li a {
   max-width: 1000px;
 }
 /*Text Styles*/
+#logo {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   margin: 0;
