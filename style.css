@@ -307,7 +307,7 @@ strong {
 }
 /*Image Handling*/
 img {
-  height: 80%;
+  position: absolute;
 }
 .iconLarge {
   display: block;
