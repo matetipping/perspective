@@ -183,7 +183,7 @@ nav#vertical {
   float: right;
   padding: 15px;
   width: 100%;
-  text-align: center;
+  text-align: right;
   box-sizing: border-box;
   position: absolute;
 }
@@ -193,7 +193,7 @@ nav#vertical ul {
   padding: 0;
 }
 nav#vertical li a {
-  color: #666;
+  color: #fff;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
