@@ -558,17 +558,17 @@ img#clock:hover {
   animation-iteration-count: infinite;
 }
 @keyframes lampshake {
-  0% { transform: translate(441px, 91px) rotate(0deg); }
-  10% { transform: translate(439px, 88px) rotate(-1deg); }
-  20% { transform: translate(437px, 90px) rotate(1deg); }
-  30% { transform: translate(443px, 92px) rotate(0deg); }
-  40% { transform: translate(441px, 89px) rotate(1deg); }
-  50% { transform: translate(439px, 92px) rotate(-1deg); }
-  60% { transform: translate(437px, 91px) rotate(0deg); }
-  70% { transform: translate(443px, 91px) rotate(-1deg); }
-  80% { transform: translate(439px, 89px) rotate(1deg); }
-  90% { transform: translate(441px, 92px) rotate(0deg); }
-  100% { transform: translate(441px, 88px) rotate(-1deg); }
+  0% { transform: translate(437px, 91px) rotate(0deg); }
+  10% { transform: translate(443px, 91px) rotate(-1deg); }
+  20% { transform: translate(439px, 89px) rotate(1deg); }
+  30% { transform: translate(441px, 92px) rotate(0deg); }
+  40% { transform: translate(441px, 88px) rotate(-1deg); }
+  50% { transform: translate(441px, 91px) rotate(0deg); }
+  60% { transform: translate(439px, 88px) rotate(-1deg); }
+  70% { transform: translate(437px, 90px) rotate(1deg); }
+  80% { transform: translate(443px, 92px) rotate(0deg); }
+  90% { transform: translate(441px, 89px) rotate(1deg); }
+  100% { transform: translate(439px, 92px) rotate(-1deg); }
 }
 #lamp.shake {
   animation: lampshake 0.5s;
