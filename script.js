@@ -70,7 +70,7 @@ window.onload = function() {
     });
     $("#lamp").click(function() {
         if ($("#lamp").hasClass("shake")) {
-            $("#lamp").attr("src","Resized Lamp Off.png");
+            $("#lamp").attr("src","images/Resized Lamp Off.png");
             $("#lamp").removeClass("shake");
             $("#iphone").removeClass("shake");
             $("#frame").removeClass("shake");
