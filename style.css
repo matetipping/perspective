@@ -201,6 +201,8 @@ nav#vertical li a {
   letter-spacing: 0.05em;
   font-size: 1.2em;
   line-height: 2em;
+  font-family: quicksand;
+  letter-spacing: 0.2em;
 }
 #dropdown {
   transform: translateY(-200px);
