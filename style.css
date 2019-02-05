@@ -15,6 +15,12 @@ header span {
   vertical-align: middle;
   display: table-cell;
 }
+span.align-left {
+  padding-left: 32px;
+}
+span.align-right {
+  padding-right: 32px;
+}
 .float-right {
   float: right;
 }
