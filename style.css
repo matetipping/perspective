@@ -249,9 +249,6 @@ body {
   transition: opacity 1s ease-in;
   opacity: 0;
 }
-.fadein {
-  opacity: 1;
-}
 .coming {
   -webkit-transition: opacity 1s ease-in;
   -moz-transition: opacity 1s ease-in;
@@ -259,6 +256,9 @@ body {
   -o-transition: opacity 1s ease-in;
   transition: opacity 1s ease-in;
   opacity: 0;
+}
+.fadein {
+  opacity: 1;
 }
 .done {
   display: none;
