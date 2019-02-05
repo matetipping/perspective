@@ -40,5 +40,10 @@ span.right-align {
   margin-bottom: 8px;
 }
 footer {
-  background: #aaa; 
+  background: #aaa;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
