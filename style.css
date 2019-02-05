@@ -308,6 +308,17 @@ strong {
 /*Image Handling*/
 img {
   position: absolute;
+  height: 600px;
+}
+img#lamp {
+}
+img#mug {
+}
+img#iphone {
+}
+img#frame {
+}
+img#clock {
 }
 .iconLarge {
   display: block;
