@@ -40,7 +40,7 @@ window.onload = function() {
     });
     $("#nextbuttonP1").click(function() {
         $(".fade").removeClass("fadein");
-        $(".fade").addClass("done");
+        $(".leaving").addClass("done");
         if ($("#lamp").hasClass("shake")) {
             $("#lamp").removeClass("shake");
         } else {
