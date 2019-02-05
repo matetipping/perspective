@@ -252,6 +252,9 @@ body {
 .fadein {
   opacity: 1;
 }
+.done {
+  display: none;
+}
 .textbox {
   width: 450px;
   margin-top: 85px;
