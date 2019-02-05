@@ -68,4 +68,14 @@ window.onload = function() {
            $("#iphone").addClass("shake");
        }
     });
+    $("#lamp").click(function() {
+        if ($("#lamp").hasClass("shake")) {
+            $("#lamp").attr("src","Resized Lamp Off.png");
+            $("#lamp").removeClass("shake");
+            $("#iphone").removeClass("shake");
+            $("#frame").removeClass("shake");
+            $("#clock").removeClass("shake");
+            $("#mug").removeClass("shake");
+        }
+    };
 };
