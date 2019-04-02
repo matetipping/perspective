@@ -1,3 +1,4 @@
+var database = firebase.database();
 window.onload = function() {
     /* Adjust these global variables */
     // Speed of hamburger animation (milliseconds). Should match CSS animation speed.
@@ -71,6 +72,7 @@ window.onload = function() {
        }
     });
     $("#lamp").click(function() {
+        addPerspective();
         if ($("#lamp").hasClass("shake")) {
             $("#lamp").attr("src","images/Resized Lamp Off.png");
             $("#lamp").removeClass("shake");
@@ -84,3 +86,11 @@ window.onload = function() {
         }
     });
 };
+
+function addPerspective() {
+  firebase.database().ref('perspectives/').push({
+    data1: 'value1',
+    data2: 'value2',
+    data3: 'value3'
+  });
+}
