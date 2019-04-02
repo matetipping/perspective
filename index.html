@@ -20,11 +20,15 @@
         messagingSenderId: "805764424713"
       };
       firebase.initializeApp(config);
+      var bigOne = document.getElementById('bigOne');
+      var dbRef = firebase.database().ref().child('text');
+      dbRef.on('value', snap => bigOne.innerText = snap.val());
     </script>
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <header>
+      <h1 id="bigOne"></h1>
       <div id="navBar">
         <div class="navContainer">
           <div id="mark">
